@@ -7038,6 +7038,8 @@ Based on the following sources:
 <text x="236.22" y="7.62" size="3.81" layer="97">v1.0</text>
 <text x="96.52" y="22.86" size="1.778" layer="91" rot="R90">Ground tie points</text>
 <text x="149.86" y="27.94" size="3.81" layer="97">CMRI Breakout 8-RJ45-Adapter-Inverting</text>
+<text x="177.8" y="7.62" size="2.54" layer="97" font="vector">Seth Neumann based on 
+a circuit by John Plocher</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
