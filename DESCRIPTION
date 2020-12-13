@@ -1,7 +1,7 @@
 The improved CMRI8-RJ45 adapter (with limiting resistor pads) AND an inverter
 
-This version is aimed at CMRI users using common cathode signals and a logic true output.
-It includes a 74HC540 octal latch inverter (but the latches are hardwared on) to source 
+This version is aimed at CMRI users using common cathode signals and a high true output.
+It includes a 74HC540 octal latch inverter (the latches are hardwared on) to source 
 ~ 8 mA @ 4V, which should be adequate for modern LEDs.
 
 John Plocher did the original design based on a request from Jay Beckham, and later extended
