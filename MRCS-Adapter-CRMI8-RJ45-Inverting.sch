@@ -7032,19 +7032,24 @@ Based on the following sources:
 <sheets>
 <sheet>
 <plain>
-<text x="149.86" y="63.5" size="1.778" layer="91" rot="R90">Molex 8-pin</text>
-<text x="101.6" y="63.5" size="1.778" layer="91" rot="R90">3.5mm 8-pin</text>
+<text x="200.66" y="68.58" size="1.778" layer="91" rot="R90">Molex 8-pin</text>
+<text x="144.78" y="68.58" size="1.778" layer="91" rot="R90">3.5mm 8-pin</text>
 <text x="22.86" y="68.58" size="1.778" layer="91" rot="R90">RJ45</text>
 <text x="236.22" y="7.62" size="3.81" layer="97">v1.0</text>
 <text x="96.52" y="22.86" size="1.778" layer="91" rot="R90">Ground tie points</text>
 <text x="149.86" y="27.94" size="3.81" layer="97">CMRI Breakout 8-RJ45-Adapter-Inverting</text>
 <text x="177.8" y="7.62" size="2.54" layer="97" font="vector">Seth Neumann based on 
 a circuit by John Plocher</text>
+<text x="172.72" y="68.58" size="1.778" layer="91" rot="R90">0.100 8 pin</text>
+<text x="200.66" y="106.68" size="1.778" layer="91">J3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="J3" gate="-1" x="198.12" y="86.36" rot="MR180"/>
+<instance part="J3" gate="-1" x="198.12" y="86.36" smashed="yes" rot="MR180">
+<attribute name="NAME" x="200.66" y="87.122" size="1.524" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="197.358" y="84.963" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="J3" gate="-2" x="198.12" y="88.9" rot="MR180"/>
 <instance part="J3" gate="-3" x="198.12" y="91.44" rot="MR180"/>
 <instance part="J3" gate="-4" x="198.12" y="93.98" rot="MR180"/>
